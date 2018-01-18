@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>GifTastic</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+</head>
+
+<body>
+	<div class="container">
+		<div class="col-md-1"></div>
+		<div class="col-md-6">
+			<div id=celebrityButtons>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<form id="celebrityForm">
+				<label for="celebrityImage">Add a celebrity
+				</label>
+				<input type="text" id=celebrityInput></input>
+				<input id="addCelebrity" type="submit" value="submit"></input>
+			</form>
+			<h2>Click on a Celebrity Button to display 10 gif's of that celebrity</h2>
+			<p>Add more celebrities by submiting your favorite celebrity in the celebrity form</p>
+			<p>Click the gifs individually to make them animated</p>
+		</div>
+		<div class="col-md-1"></div>
+		<div class="col-md-12">
+			<div class="col-md-1"></div>
+			<div class="col-md-10">
+				<div id=celebrities>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+
+
+</body>
+</html>
